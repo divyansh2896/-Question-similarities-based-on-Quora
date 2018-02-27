@@ -21,8 +21,8 @@ def text_to_vector(text):
      return Counter(words)
 
 text1 = input("Enter the question :- ")
-text2 = 'A learning app is here named Baduga .'
-text3 = 'Baduga is a fastest learning app .'
+text2 = 'One of the fastest economy of world is India.'
+text3 = 'India is biggest democracy in the world.'
 
 vector1 = text_to_vector(text1)
 vector2 = text_to_vector(text2)
